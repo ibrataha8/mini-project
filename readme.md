@@ -1,4 +1,4 @@
-# Mini application gérer une centre
+# Mini Application Manage Center
 **<p align="center">Which technology is used ???</p>**
 - PHP
 - JAVASCRIPT
