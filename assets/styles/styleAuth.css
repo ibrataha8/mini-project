@@ -1,0 +1,94 @@
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  strong{
+    color: red;
+}    
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    color: black;
+  } */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.4s ease;
+    display: flex;
+  }
+  
+  button:hover {
+    background-color: #62ff50;
+    color: black;
+  }
+    
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer img {
+    max-width: 100px;
+    height: auto;
+  }
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.contant {
+    background-image: url(../../assets/imgs/bgi.jpg);
+    background-repeat: no-repeat;
+    background-size: 1033px 250px; 
+    background-position: center; 
+    height: 37vh;
+    text-align: center;
+} 
+

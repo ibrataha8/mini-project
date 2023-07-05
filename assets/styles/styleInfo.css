@@ -1,0 +1,89 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.formateur-info {
+    margin-bottom: 20px;
+}
+
+.formateur-info label {
+    font-weight: bold;
+}
+
+.formateur-info span {
+    font-weight: normal;
+}
+
+.module-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.module-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.module-name {
+    font-weight: bold;
+}
+
+.module-duration {
+    float: right;
+    color: #170272;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.progress {
+    background-color: #4CAF50 !important;
+    border-radius: 9px;
+    height: 100% ;
+}
+
+.module-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.info-item {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #888;
+}
+
+.info-value {
+    color: #555;
+}
+
+.infoMdl:hover{
+    background-color: rgb(150, 235, 238);
+    color: rgba(181, 0, 0, 0.852);
+    cursor: pointer;
+}
